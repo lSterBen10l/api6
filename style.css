@@ -1,0 +1,100 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #eef2f3; /* Lys bakgrunn */
+    margin: 0;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    background-color: #007bff; /* Hovedfarge for header */
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1 {
+    margin: 0;
+}
+
+#search-form {
+    margin-bottom: 20px;
+}
+
+input[type="text"], input[type="submit"] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background-color: #28a745; /* Grønn for søkeknappen */
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #218838; /* Mørkere grønn ved hover */
+}
+
+#movie-info {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+#movie-title {
+    color: #007bff; /* Tittelfarge */
+}
+
+#movie-poster {
+    max-width: 200px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+#recommended-movies {
+    display: flex;
+    flex-direction: column;
+}
+
+.recommended-movie {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    background-color: #ffffff; /* Hvit bakgrunn for anbefalte filmer */
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s; /* Effekt ved hover */
+}
+
+.recommended-movie:hover {
+    transform: scale(1.02); /* Litt større ved hover */
+}
+
+.recommended-movie img {
+    max-width: 100px;
+    margin-right: 10px;
+    border-radius: 3px;
+}
+
+.recommended-movie span {
+    font-weight: bold;
+    color: #333; /* Tekstfarge for anbefalte filmer */
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    color: #555;
+}
